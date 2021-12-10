@@ -1,0 +1,19 @@
+{% ckan_extends %}
+
+{% block header %}
+    <div id="header" data-module="hide_header_footer">
+      {% include "header.html" %}
+      {% asset 'defesa_theme/defesa_theme-js' %}
+    </div>
+{% endblock %}
+
+{% block footer %}
+    <div id="footer" data-module="hide_header_footer">
+      {% include "footer.html" %}
+      {% asset 'defesa_theme/defesa_theme-js' %}
+    </div>
+{% endblock %}
+
+{%- block custom_styles %}
+    {% asset 'defesa_theme/defesa_theme-css' %}
+{% endblock %}

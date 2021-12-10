@@ -1,0 +1,5 @@
+<footer id="footer" data-module="hide_header_footer">
+  
+   123
+   {% asset 'defesa_theme/defesa_theme-js' %}
+</footer>

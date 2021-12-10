@@ -1,0 +1,15 @@
+defesa_theme-js:
+  filter: rjsmin
+  output: ckanext-defesa_theme/%(version)s-defesa_theme.js
+  contents:
+    - hide_header_footer.js
+  extra:
+    preload:
+      - base/main
+
+
+defesa_theme-css:
+  filter: cssrewrite
+  output: ckanext-defesa_theme/%(version)s-defesa_theme.css
+  contents:
+    - theme.css
